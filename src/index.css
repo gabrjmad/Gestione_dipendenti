@@ -1,0 +1,98 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+h1 {
+  text-align: center;
+  color: #0066cc;
+}
+
+.chat-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.chat-box input:focus {
+  font-style: normal;
+}
+
+.chat-box button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dashboard {
+  margin-top: 40px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.filters input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.filters button {
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.result {
+  background: #e9ecef;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sheet-link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sheet-link a {
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: none;
+  background: #eef6ff;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+.sheet-link a:hover {
+  background: #d6eaff;
+}
