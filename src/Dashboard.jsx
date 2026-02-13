@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const GOOGLE_SHEET_URL =
-  "https://docs.google.com/spreadsheets/d/19aGWqJ36yRp1OUthmUri_ANGYJTnKAX06w96nPZTlxI/edit";
+  "https://docs.google.com/spreadsheets/d//edit";
 
 export default function Dashboard() {
   const [data, setData] = useState([]);
