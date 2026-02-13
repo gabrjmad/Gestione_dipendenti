@@ -12,7 +12,7 @@ app.use(
 );
 app.use(express.json());
 
-const SPREADSHEET_ID = "19aGWqJ36yRp1OUthmUri_ANGYJTnKAX06w96nPZTlxI";
+const SPREADSHEET_ID = " ";
 const SHEET_NAME = "Foglio1";
 
 const auth = new google.auth.GoogleAuth({
